@@ -1,0 +1,58 @@
+.my-size-chart,
+.my-table {
+		width: 100%;
+		border-collapse: collapse;
+}
+
+.my-size-chart th,
+.my-size-chart td,
+.my-table th,
+.my-table td
+{
+		border: 1px solid black;
+		padding: 8px;
+		text-align: center;
+}
+
+.my-size-chart th,
+.my-table .my-table-heading td{
+		background-color: orangered;
+		color: #fff;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    box-shadow: 0rem 0.125rem 0.25rem rgba(31, 33, 36, 0.1), 0rem 0.0625rem 0.375rem rgba(31, 33, 36, 0.05);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#add-new-row {
+    color: #fff;
+    background-color: #2ecc71;
+}
+
+#del-last-row {
+    color: #fff;
+    background-color: #c0392b;
+}
+
+#copy-code {
+    color: #fff;
+    background-color: #3498db;
+}
+
+#duplicate-row {
+    color: #fff;
+    background-color: #fdcb6e;
+}
+
+h1 {
+    text-align: center;
+}
